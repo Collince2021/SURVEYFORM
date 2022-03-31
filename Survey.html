@@ -1,0 +1,34 @@
+<!DOC TYPE>
+<html>
+    <head>
+      <title>SURVEY FORM</title>
+    </head>
+    <body>
+        <h1>PLEASE FILL THE SURVEY FORM HONESTLY</h1>
+        <P id="P1"><b>NOTE:</b>The survey form should be completed in time befofre the deadline</P>
+        <fieldset>
+            <legend>SURVEY DETAILS:</legend>
+            <label for="NAME">NAME:</label><br><br>
+            <input type="text"  id="NAME">
+            <br><br>
+            <label for="address">ADDRESS:</label>
+            <input type="address" id="address" placeholder="Your hometown address">
+            <input type="email" id="email" placeholder="youremail@gmail.com">
+            <label for="number">Phone number:</label>
+            <input type="number" id="number" placeholder="070...."  min="1" max="10">
+            <label for="iq">IQ:</label> 
+            <input type="text" id="iq">
+            <label for="gender">GENDER:</label>
+            <input type="radio" name="gender" id="gender" value="male" checked><label>MALE</label>
+            <input type="radio"  name="gender" value="female"><label>FEMALE</label>
+            <input type="radio" name="gender" valeu="other"><label>OTHER</label>
+            <P id="p2">Do you wish to fill your date of birth?<br/>If yes then do so in the box below</P>
+            <select>
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+            </select>
+            <label for="bithdate">DATE OF BIRTH:</label>
+            <input type="date" name="date" id="birthdate"><br />
+            <input type="submit" value="submit your details">
+        </fieldset>
+    </body></html>
